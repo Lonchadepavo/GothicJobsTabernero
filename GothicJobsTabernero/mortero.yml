@@ -1,0 +1,10 @@
+ingredientes:
+
+recetas:
+   receta1:
+      ingrediente: TIPO/NOMBRE
+      resultado: TIPO/NOMBRE
+      usos: 0
+      
+         
+   
