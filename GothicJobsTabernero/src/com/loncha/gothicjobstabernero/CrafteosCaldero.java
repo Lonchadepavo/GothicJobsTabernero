@@ -377,6 +377,12 @@ public class CrafteosCaldero implements Listener {
 															restarObjeto(itemInHand,p);
 														}
 														
+														System.out.println(b.getMetadata("resultadoreceta").get(0).asString());
+														
+														if (b.hasMetadata(b.getMetadata("resultadoreceta").get(0).asString())) {
+															System.out.println("matchrecetas");
+														}
+														
 														if (b.hasMetadata("resultadoreceta")) {
 															BukkitScheduler scheduler = Bukkit.getServer().getScheduler();
 												            scheduler.scheduleSyncDelayedTask(m, new Runnable() {
